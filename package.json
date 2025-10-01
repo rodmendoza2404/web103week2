@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+<<<<<<< HEAD
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "pg": "^8.16.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "reset": "cd server/config && node reset.js",
+    "start": "npm run reset && cd server && npx nodemon server.js"
+=======
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": { "start": "nodemon server.js" },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+ 
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+>>>>>>> 08cf08c6f77e2ac4198eca4c988bddf74536ff43
+  }
+}

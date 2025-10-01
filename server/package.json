@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": { 
+    "start": "nodemon server.js",
+    "reset": "node config/reset.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+ 
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
